@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="bgc" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1b2330"/>
+      <stop offset="60%" stop-color="#0f151f"/>
+      <stop offset="100%" stop-color="#0a0e15"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3dca0"/>
+      <stop offset="38%" stop-color="#e3be73"/>
+      <stop offset="100%" stop-color="#a9824f"/>
+    </linearGradient>
+    <linearGradient id="goldDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cda866"/>
+      <stop offset="100%" stop-color="#8a6536"/>
+    </linearGradient>
+  </defs>
+
+  <!-- disc -->
+  <circle cx="300" cy="300" r="290" fill="url(#bgc)"/>
+  <circle cx="300" cy="300" r="289" fill="none" stroke="url(#gold)" stroke-width="2" opacity=".55"/>
+
+  <!-- building cluster: vertical bars, tallest center -->
+  <g>
+    <!-- back towers -->
+    <rect x="180" y="250" width="34" height="170" rx="4" fill="url(#goldDark)"/>
+    <rect x="386" y="250" width="34" height="170" rx="4" fill="url(#goldDark)"/>
+    <!-- mid towers -->
+    <rect x="222" y="210" width="40" height="210" rx="5" fill="url(#gold)"/>
+    <rect x="338" y="210" width="40" height="210" rx="5" fill="url(#gold)"/>
+    <!-- center tower (tallest) -->
+    <rect x="270" y="160" width="60" height="260" rx="6" fill="url(#gold)"/>
+    <!-- center spire -->
+    <rect x="296" y="132" width="8" height="34" rx="3" fill="url(#gold)"/>
+
+    <!-- window slits (dark) -->
+    <g fill="#0f151f" opacity=".55">
+      <rect x="284" y="186" width="32" height="5" rx="2"/>
+      <rect x="284" y="208" width="32" height="5" rx="2"/>
+      <rect x="284" y="230" width="32" height="5" rx="2"/>
+      <rect x="284" y="252" width="32" height="5" rx="2"/>
+      <rect x="284" y="274" width="32" height="5" rx="2"/>
+      <rect x="284" y="296" width="32" height="5" rx="2"/>
+      <rect x="284" y="318" width="32" height="5" rx="2"/>
+      <rect x="284" y="340" width="32" height="5" rx="2"/>
+      <rect x="284" y="362" width="32" height="5" rx="2"/>
+
+      <rect x="231" y="232" width="22" height="4" rx="2"/>
+      <rect x="231" y="252" width="22" height="4" rx="2"/>
+      <rect x="231" y="272" width="22" height="4" rx="2"/>
+      <rect x="231" y="292" width="22" height="4" rx="2"/>
+      <rect x="231" y="312" width="22" height="4" rx="2"/>
+      <rect x="231" y="332" width="22" height="4" rx="2"/>
+
+      <rect x="347" y="232" width="22" height="4" rx="2"/>
+      <rect x="347" y="252" width="22" height="4" rx="2"/>
+      <rect x="347" y="272" width="22" height="4" rx="2"/>
+      <rect x="347" y="292" width="22" height="4" rx="2"/>
+      <rect x="347" y="312" width="22" height="4" rx="2"/>
+      <rect x="347" y="332" width="22" height="4" rx="2"/>
+    </g>
+
+    <!-- ground line -->
+    <rect x="168" y="420" width="264" height="6" rx="3" fill="url(#gold)"/>
+  </g>
+
+  <!-- text -->
+  <text x="300" y="486" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" letter-spacing="6" fill="url(#gold)">MEHDI</text>
+  <text x="300" y="522" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="11" fill="#c9a86a">IMMOBILIER</text>
+</svg>
